@@ -122,7 +122,7 @@ These are **documented** on the portfolio; they’re **not** inferred from publi
 <div align="center">
 
 <img height="175em" src="https://github-readme-stats.vercel.app/api?username=sinouw&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&hide_title=true&title_color=38bdf8" alt="GitHub stats" />
-<img height="175em" src="https://github-readme-streak-stats.demolab.com/?user=sinouw&theme=github-dark&hide_border=true&mode=daily" alt="GitHub streak" />
+<img height="175em" src="https://streak-stats.demolab.com/?user=sinouw&theme=github-dark&hide_border=true&mode=daily" alt="GitHub streak" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sinouw&layout=compact&theme=github_dark&hide_border=true&langs_count=8&title_color=38bdf8" alt="Top languages" />
 
