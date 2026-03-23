@@ -1,10 +1,3 @@
-<!--
-  Deploy: public repo named exactly `sinouw` → push this README.
-  Bio suggestion: Full-stack & AI — Angular, NestJS, React, Node, Go · GCP · Team lead & consulting · EU / UK / NA / MENA / Indian Ocean.
-  Logos: https://yassine-elouni-profile.web.app/companies/
-  Contributions: enable “Include private contributions” in GitHub profile settings so the official graph matches your real activity.
--->
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0c1222,40:1e3a8a,100:0369a1&height=150&section=header&text=Full-Stack%20%26%20AI&fontSize=36&fontColor=fff&fontAlignY=40&desc=Consulting%20%E2%80%A2%20Team%20lead%20%E2%80%A2%20Cloud%20%26%20product%20delivery&descSize=14&descAlignY=58" width="100%" alt="" />
 
 <div align="center">
@@ -41,7 +34,7 @@ Most of my work is **under NDA**: private org repos, client GCP projects, and lo
 
 ## Trusted by — organizations I’ve shipped with
 
-Logos load from **[yassine-elouni-profile.web.app](https://yassine-elouni-profile.web.app/)** (same “Trusted by Leading Companies” set as on the site). *Engagements include enterprise consulting, product delivery, and long-running programs — details under NDA where applicable.*
+Representative collaborations — extended context and the same logo set on **[yassine-elouni-profile.web.app](https://yassine-elouni-profile.web.app/)**. *Engagements include enterprise consulting, product delivery, and long-running programs — details under NDA where applicable.*
 
 <p align="center">
   <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/pwc_uk_logo.jpg" height="54" alt="PwC UK" style="border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
@@ -115,20 +108,9 @@ These are **documented** on the portfolio; they’re **not** inferred from publi
 
 ---
 
-## GitHub contributions
+## GitHub · activity
 
-**Private contributions** are included on my [public profile graph](https://github.com/sinouw) (GitHub setting). The widgets below use public APIs — they complement the graph but may not mirror every private commit the way the official calendar does.
-
-<div align="center">
-
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=sinouw&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&hide_title=true&title_color=38bdf8" alt="GitHub stats" />
-<img height="175em" src="https://streak-stats.demolab.com/?user=sinouw&theme=github-dark&hide_border=true&mode=daily" alt="GitHub streak" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sinouw&layout=compact&theme=github_dark&hide_border=true&langs_count=8&title_color=38bdf8" alt="Top languages" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sinouw&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20activity&color=38bdf8&line=38bdf8&point=ffffff" width="100%" alt="Activity graph" />
-
-</div>
+Most delivery work is in **private** and organization repositories under NDA, so public GitHub is only part of the story. **[github.com/sinouw](https://github.com/sinouw)** has the official contribution graph and repositories. For outcomes, metrics, and case-style write-ups, see the **[portfolio](https://yassine-elouni-profile.web.app/)**; for public code patterns, see **Public reference repos** below.
 
 ---
 
