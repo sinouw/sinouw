@@ -1,139 +1,114 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0c1222,40:1e3a8a,100:0369a1&height=150&section=header&text=Full-Stack%20%26%20AI&fontSize=36&fontColor=fff&fontAlignY=40&desc=Consulting%20%E2%80%A2%20Team%20lead%20%E2%80%A2%20Cloud%20%26%20product%20delivery&descSize=14&descAlignY=58" width="100%" alt="" />
+# Yassine El Ouni
 
-<div align="center">
+**Senior Software Engineer | Full-Stack & Backend | Cloud, CI/CD & Agentic AI**
 
-**Senior full-stack engineer · AI & cloud · Team lead & consultant**
+Senior Software Engineer with **7+ years** of experience building and operating production full-stack, backend, cloud, and AI-enabled systems for international startup and enterprise teams.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=20&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=780&lines=Enterprise+and+high-scale+product+delivery;Hands-on+from+architecture+to+production+code;Private+repos+by+default+%E2%80%94+proof+is+under+NDA%2C+not+absent)](https://github.com/sinouw)
+I work across the technical lifecycle:
 
-[Portfolio](https://yassine-elouni-profile.web.app/) · [LinkedIn](https://www.linkedin.com/in/yassineelouni/) · [GitHub](https://github.com/sinouw)
+**Frontend / Mobile → Backend / APIs → Architecture → Databases → Cloud / CI/CD → Production → LLM / RAG / Agentic AI**
 
-<sub>EN · FR · AR · MSc Computer Science (TEK-UP)</sub>
-
-</div>
+[Portfolio](https://yassine-elouni-profile.web.app/) · [LinkedIn](https://www.linkedin.com/in/yassineelouni) · [Email](mailto:yassine.elouni.dev@gmail.com)
 
 ---
 
-## Why this profile looks “quiet” on GitHub
+## What I work on
 
-Most of my work is **under NDA**: private org repos, client GCP projects, and long-running engagements. **Public commits are not the scorecard** — delivery for **enterprise, retail, and telecom** (e.g. **PwC UK**, **Carrefour Link**, **Orange**) is. For case-style write-ups, metrics, and the full client set, use **[yassine-elouni-profile.web.app](https://yassine-elouni-profile.web.app/)**.
-
----
-
-## What I bring (the short version)
-
-| Strength | What it means in practice |
-| :--- | :--- |
-| **Delivery leadership** | I **lead squads** (e.g. **7** engineers), run cadence, reviews, and stakeholder alignment — not only IC work. |
-| **Full-stack depth** | **Angular** and **React** on the front; **NestJS / Node** and **Go** on the back; **real-time** (e.g. WebSockets) when the product needs it. |
-| **Cloud & cost** | **GCP-first** architecture and tuning — portfolio examples include **~30%** infra cost reduction and **~50%** performance gains. |
-| **Platform discipline** | **Microservices**, **Docker**, **Kubernetes**, CI/CD — patterns that showed **~2×** deploy frequency and **~60%** better MTTR in documented engagements. |
-| **AI where it earns its keep** | Automation and intelligent workflows when they **reduce risk or scale**, not as buzzword filler. |
+- Production full-stack and backend systems
+- React / TypeScript and Angular product engineering
+- Node.js APIs, NestJS services, and distributed systems
+- Real-time and event-driven applications
+- Cloud infrastructure, CI/CD, and production reliability
+- LLM-powered product features
+- RAG, retrieval, and tool-based agentic workflows
+- Hands-on technical leadership alongside implementation
 
 ---
 
-## Trusted by — organizations I’ve shipped with
+## Featured engineering
 
-Representative collaborations — extended context and the same logo set on **[yassine-elouni-profile.web.app](https://yassine-elouni-profile.web.app/)**. *Engagements include enterprise consulting, product delivery, and long-running programs — details under NDA where applicable.*
+Public repositories that show how I design and ship systems. Most of my recent production work has been delivered for commercial clients in private repositories, so the public projects here focus on representative engineering work I can share openly.
 
-<p align="center">
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/pwc_uk_logo.jpg" height="54" alt="PwC UK" style="border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-  &nbsp;&nbsp;
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/carrefourlink_logo.jpg" height="54" alt="Carrefour Link" style="border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-  &nbsp;&nbsp;
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/naxxumfr_logo.jpg" height="54" alt="Naxxum" style="border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-  &nbsp;&nbsp;
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/orange_logo.jpg" height="54" alt="Orange" style="border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-</p>
-<p align="center">
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/alsahabsa_logo.jpg" height="44" alt="Sahab" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.32), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-  &nbsp;&nbsp;
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/zupdeco_logo.png" height="44" alt="ZUPdeCO" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.32), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-  &nbsp;&nbsp;
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/tested4you_logo.jpg" height="44" alt="Tested4you" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.32), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-  &nbsp;&nbsp;
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/connect_to_invest_logo.jpg" height="44" alt="Connect to Invest" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.32), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-  &nbsp;&nbsp;
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/dune_technology.jpg" height="44" alt="Dune Technology" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.32), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-</p>
-<p align="center">
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/play_consulting_logo.jpg" height="44" alt="Play Consulting" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.32), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-  &nbsp;&nbsp;
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/move_up_it_solutions_logo.jpg" height="44" alt="Move Up IT Solutions" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.32), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-  &nbsp;&nbsp;
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/queney_logo.jpg" height="44" alt="Queney" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.32), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-  &nbsp;&nbsp;
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/sparow_logo.jpg" height="44" alt="Sparow" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.32), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-  &nbsp;&nbsp;
-  <a href="https://yassine-elouni-profile.web.app/"><img src="https://yassine-elouni-profile.web.app/companies/star_assurance_logo.jpg" height="44" alt="Star Assurance" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.32), 0 0 0 1px rgba(255,255,255,0.06); vertical-align: middle;" /></a>
-</p>
+### 1. AI Opportunity Intelligence
 
-### Geographic reach
+Production-style AI application combining a FastAPI backend, React interface, SSE streaming, LLM workflows, and structured opportunity discovery, enrichment, scoring, and prioritization.
 
-<p align="center">
-  <strong>Canada</strong> · <strong>United Kingdom</strong> · <strong>France</strong> · <strong>Italy</strong> · <strong>Tunisia</strong> · <strong>Saudi Arabia</strong> · <strong>United Arab Emirates</strong> · <strong>Mauritius</strong>
-</p>
+Engineering focus: tool-driven pipeline orchestration, streaming progress to the UI, persistence, tests, and security notes for local/dev hardening.
 
-<p align="center">
-  <sub>North America · Western Europe · North Africa · Gulf · Indian Ocean — <em>remote / hybrid friendly worldwide</em></sub>
-</p>
+**Stack:** Python · FastAPI · React · Vite · SSE · LLM workflows · SQLite · pytest
+
+[Repository →](https://github.com/sinouw/ai-opportunity-intelligence)
+
+### 2. AI Multilingual Video Processor
+
+Cloud-oriented AI media processing system in Go: asynchronous STT → translation → TTS → audio sync workflows, Google Cloud deployment patterns, Docker, CI, and documented security considerations.
+
+**Stack:** Go · Google Cloud (STT / Translation / TTS / Storage) · Docker · Cloud Functions · CI
+
+[Repository →](https://github.com/sinouw/AI-Multilingual-Video-Processor)
+
+### 3. NestJS + Supabase backend service
+
+Modular NestJS backend with PostgreSQL/Supabase, Prisma, JWT authentication, validation, API documentation, Docker support, and a structured testing setup — useful evidence of production-oriented backend patterns.
+
+**Stack:** TypeScript · NestJS · PostgreSQL · Supabase · Prisma · JWT · Docker
+
+[Repository →](https://github.com/sinouw/Nestjs-Supabase-Boilerplate)
 
 ---
 
-## Outcomes (portfolio-aligned)
+## Tech stack
 
-These are **documented** on the portfolio; they’re **not** inferred from public GitHub activity.
+### Software engineering
 
-- **Product / full-stack:** Angular + Node/Nest, real-time stack — **~40%** engagement lift, **~60%** latency reduction (stated case).
-- **Cloud:** GCP architecture & optimization — **~30%** cost, **~50%** performance (stated case).
-- **Reliability & velocity:** containerized microservices & K8s — **~2×** releases, **~60%** MTTR improvement (stated case).
-- **Quality at scale:** process + reviews on multi-developer delivery — **~40%** defect reduction (stated case).
+TypeScript · JavaScript · Node.js · NestJS · React · Angular · React Native · Python · Go
 
----
+### Architecture & data
 
-## Engineering stack (current)
+REST · GraphQL · PostgreSQL · MongoDB · microservices · distributed systems · event-driven systems · WebSockets · real-time systems
 
-`TypeScript` · `Angular` · `React` · `NestJS` · `Node.js` · `Go` · `GCP` · `Firebase` · `Docker` · `Kubernetes` · `PostgreSQL` · `MongoDB` · `Prisma` · `REST` / `GraphQL`
+### Cloud & production
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" width="36" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="36" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="36" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="36" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="36" alt="" />
-</p>
+GCP · Firebase · AWS · Docker · GitHub Actions · GitLab CI/CD · Azure Pipelines · monitoring · production reliability
+
+### AI engineering
+
+OpenAI · Anthropic · RAG · vector databases · MCP · OCR + LLM · agentic workflows · multi-agent orchestration · tool-based AI workflows
 
 ---
 
-## GitHub · activity
+## Technical leadership
 
-Most delivery work is in **private** and organization repositories under NDA, so public GitHub is only part of the story. **[github.com/sinouw](https://github.com/sinouw)** has the official contribution graph and repositories. For outcomes, metrics, and case-style write-ups, see the **[portfolio](https://yassine-elouni-profile.web.app/)**; for public code patterns, see **Public reference repos** below.
+Alongside hands-on engineering, I have progressed from Software Engineer to Technical Lead and Team Lead responsibilities.
 
----
-
-<details>
-<summary><strong>Public reference repos</strong> (patterns & learning — not a substitute for client work)</summary>
-
-| | |
-| --- | --- |
-| NestJS + Supabase | [Nestjs-Supabase-Boiletplate](https://github.com/sinouw/Nestjs-Supabase-Boiletplate) |
-| NestJS + SQLite | [NestJs-Sqlite-Boilerplate](https://github.com/sinouw/NestJs-Sqlite-Boilerplate) |
-| Angular + Nest + JWT | [Angular-NestJs-Auth-Jwt-Passport-Local](https://github.com/sinouw/Angular-NestJs-Auth-Jwt-Passport-Local) |
-| AI / media pipelines | [AI-Multilingual-Video-Processor](https://github.com/sinouw/AI-Multilingual-Video-Processor) |
-
-</details>
+- Directly led 5 developers
+- Worked across cross-functional teams of up to 15
+- Owned architecture and technical decisions
+- Mentored engineers on system design and code quality
+- Coordinated delivery across product, engineering, and business stakeholders
+- Stayed hands-on with implementation and production systems
 
 ---
 
-<div align="center">
+## Professional work
 
-**If you’re hiring for senior delivery, architecture, or team lead — start with [LinkedIn](https://www.linkedin.com/in/yassineelouni/) or the [portfolio](https://yassine-elouni-profile.web.app/).**
+**Senior Software Engineer & AI Consultant — Move Up It Solutions**
 
-<sub>Serious consulting and engineering engagements only.</sub>
+Selected international engagements include ZUPdeCO, Tested4you, SAHAB, Carrefour / Devoteam, and PwC UK / Play Studios.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0c1222,40:1e3a8a,100:0369a1&height=90&section=footer" width="100%" alt="" />
+---
 
-</div>
+## Education
+
+**Engineer's Degree, Computer Software Engineering — TEK-UP University of Digital Sciences**
+
+---
+
+## Contact
+
+Open to strong international opportunities across Senior Software Engineering, AI Product Engineering, and hands-on Technical Leadership.
+
+- LinkedIn: [linkedin.com/in/yassineelouni](https://www.linkedin.com/in/yassineelouni)
+- Email: [yassine.elouni.dev@gmail.com](mailto:yassine.elouni.dev@gmail.com)
+- GitHub: [github.com/sinouw](https://github.com/sinouw)
+- Portfolio: [yassine-elouni-profile.web.app](https://yassine-elouni-profile.web.app/)
