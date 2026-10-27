@@ -1,114 +1,80 @@
 # Yassine El Ouni
 
-**Senior Software Engineer | Full-Stack & Backend | Cloud, CI/CD & Agentic AI**
+**Senior AI Engineer | Full-Stack & Cloud — LLM applications, RAG, AI agents, voice AI**
 
-Senior Software Engineer with **7+ years** of experience building and operating production full-stack, backend, cloud, and AI-enabled systems for international startup and enterprise teams.
-
-I work across the technical lifecycle:
-
-**Frontend / Mobile → Backend / APIs → Architecture → Databases → Cloud / CI/CD → Production → LLM / RAG / Agentic AI**
+Senior software engineer with **6+ years** shipping production systems for clients in France, the UK and Saudi Arabia, now focused on applied AI: retrieval-augmented generation, tool-using and multi-agent systems on the Model Context Protocol, real-time voice agents and computer vision — measured with evaluation harnesses and tracing, not demos.
 
 [Portfolio](https://yassine-elouni-profile.web.app/) · [LinkedIn](https://www.linkedin.com/in/yassineelouni) · [Email](mailto:yassine.elouni.dev@gmail.com)
 
 ---
 
-## What I work on
+## Featured projects
 
-- Production full-stack and backend systems
-- React / TypeScript and Angular product engineering
-- Node.js APIs, NestJS services, and distributed systems
-- Real-time and event-driven applications
-- Cloud infrastructure, CI/CD, and production reliability
-- LLM-powered product features
-- RAG, retrieval, and tool-based agentic workflows
-- Hands-on technical leadership alongside implementation
+Most of my production work is for clients in private repositories. These three public projects show how I build AI systems: each one ships with tests, an eval suite and results from real runs.
 
----
+### 1. [rag-agent-evals](https://github.com/sinouw/rag-agent-evals) — RAG agent with an evaluation harness
 
-## Featured engineering
+Document question-answering agent: hybrid dense + BM25 retrieval in Qdrant fused with Reciprocal Rank Fusion, cited answers streamed over SSE, and an agent loop with function calling (semantic search, read-only SQL, sandboxed calculator). A 65-question eval harness (Hit@k, MRR, LLM-as-judge correctness and faithfulness, citation precision) drove the retrieval design.
 
-Public repositories that show how I design and ship systems. Most of my recent production work has been delivered for commercial clients in private repositories, so the public projects here focus on representative engineering work I can share openly.
+- Answer-passage **Hit@5 76% → 89%**, **MRR 0.55 → 0.72** from metadata cards + hybrid search
+- **100%** correctness and faithfulness on the 32-question core set (gpt-oss-120b on Groq)
+- A cross-encoder reranker was measured and left off: ~25x the latency
+- Per-request OpenTelemetry traces (model calls, tools, tokens, cost) shown as a waterfall in the UI
 
-### 1. AI Opportunity Intelligence
+**Stack:** Python · FastAPI · Qdrant · fastembed · React · TypeScript · OpenTelemetry · Docker
 
-Production-style AI application combining a FastAPI backend, React interface, SSE streaming, LLM workflows, and structured opportunity discovery, enrichment, scoring, and prioritization.
+### 2. [mcp-ops-copilot](https://github.com/sinouw/mcp-ops-copilot) — multi-agent platform on MCP
 
-Engineering focus: tool-driven pipeline orchestration, streaming progress to the UI, persistence, tests, and security notes for local/dev hardening.
+Support-operations copilot: a supervisor and three scoped agents act only through self-built CRM and ticketing MCP servers. Refunds over $100 and every customer email pause for human approval, re-verified server-side.
 
-**Stack:** Python · FastAPI · React · Vite · SSE · LLM workflows · SQLite · pytest
+- Layered prompt-injection defenses: untrusted-data fencing, per-agent tool scopes, a recipient-less reply tool, ownership checks, output validation
+- **100% policy compliance** with a simulated fully hijacked model on a 16-scenario eval suite
+- 69 unit and integration tests against real Postgres and MCP sessions, strict mypy
 
-[Repository →](https://github.com/sinouw/ai-opportunity-intelligence)
+**Stack:** Python · official MCP SDK · FastAPI · PostgreSQL · React · TypeScript · OpenTelemetry · Docker
 
-### 2. AI Multilingual Video Processor
+### 3. [Sawt · صوت](https://github.com/sinouw/sawt) — real-time multilingual voice agent
 
-Cloud-oriented AI media processing system in Go: asynchronous STT → translation → TTS → audio sync workflows, Google Cloud deployment patterns, Docker, CI, and documented security considerations.
+Phone-style clinic receptionist that understands and answers in Arabic (Modern Standard, Tunisian Derja, Gulf), French and English, books and cancels appointments through tool calls, and lets callers interrupt it mid-sentence.
 
-**Stack:** Go · Google Cloud (STT / Translation / TTS / Storage) · Docker · Cloud Functions · CI
+- **2.54 s** median server time to first audio on the Groq free tier, timed stage by stage
+- **94%** task success on the full audio path, 100% language ID, 3% character error rate
+- Pluggable STT, LLM and TTS providers; hosted and local Whisper models compared
 
-[Repository →](https://github.com/sinouw/AI-Multilingual-Video-Processor)
-
-### 3. NestJS + Supabase backend service
-
-Modular NestJS backend with PostgreSQL/Supabase, Prisma, JWT authentication, validation, API documentation, Docker support, and a structured testing setup — useful evidence of production-oriented backend patterns.
-
-**Stack:** TypeScript · NestJS · PostgreSQL · Supabase · Prisma · JWT · Docker
-
-[Repository →](https://github.com/sinouw/Nestjs-Supabase-Boilerplate)
+**Stack:** Python · FastAPI WebSockets · asyncio · Whisper (Groq, faster-whisper) · llama.cpp · edge-tts · Next.js · Docker
 
 ---
 
 ## Tech stack
 
-### Software engineering
+**AI engineering:** RAG · hybrid retrieval (dense + BM25) · Qdrant · AI agents and function calling · multi-agent systems · MCP · LLM evaluation · OpenTelemetry · Groq · Gemini · Whisper · YOLOv8 · DeepFace
 
-TypeScript · JavaScript · Node.js · NestJS · React · Angular · React Native · Python · Go
+**Software engineering:** Python · TypeScript · JavaScript · Go · SQL · FastAPI · Node.js · NestJS · React · Next.js · Angular · Vue.js · React Native / Expo
 
-### Architecture & data
+**Architecture & data:** REST · GraphQL · microservices · event-driven and real-time systems · WebSockets · PostgreSQL · MongoDB · Prisma · Firestore
 
-REST · GraphQL · PostgreSQL · MongoDB · microservices · distributed systems · event-driven systems · WebSockets · real-time systems
-
-### Cloud & production
-
-GCP · Firebase · AWS · Docker · GitHub Actions · GitLab CI/CD · Azure Pipelines · monitoring · production reliability
-
-### AI engineering
-
-OpenAI · Anthropic · RAG · vector databases · MCP · OCR + LLM · agentic workflows · multi-agent orchestration · tool-based AI workflows
+**Cloud & production:** GCP · AWS · Firebase · Docker · CI/CD · monitoring
 
 ---
 
-## Technical leadership
+## Experience
 
-Alongside hands-on engineering, I have progressed from Software Engineer to Technical Lead and Team Lead responsibilities.
-
-- Directly led 5 developers
-- Worked across cross-functional teams of up to 15
-- Owned architecture and technical decisions
-- Mentored engineers on system design and code quality
-- Coordinated delivery across product, engineering, and business stakeholders
-- Stayed hands-on with implementation and production systems
-
----
-
-## Professional work
-
-**Senior Software Engineer & AI Consultant — Move Up It Solutions**
-
-Selected international engagements include ZUPdeCO, Tested4you, SAHAB, Carrefour / Devoteam, and PwC UK / Play Studios.
-
----
+- **Independent Software & AI Engineering Consultant** (2023 – present): ZUPdeCO, Tested4you, SAHAB, Carrefour Links via Devoteam, PwC UK via Play Studios
+- **Team Lead, Groupe HLi** (2025)
+- **Technical Lead, Naxxum Group** (2022): led a 6-engineer team on a client platform serving 60k active users
+- **Full-Stack Software Engineer, Naxxum Group** (2020 – 2022)
 
 ## Education
 
-**Engineer's Degree, Computer Software Engineering — TEK-UP University of Digital Sciences**
+- **Engineering Degree (Master's level) in Data Science** — TEK-UP University, with distinction (evening program while working full-time)
+- **Bachelor's Degree in Software Engineering** — ISET Nabeul
 
 ---
 
 ## Contact
 
-Open to strong international opportunities across Senior Software Engineering, AI Product Engineering, and hands-on Technical Leadership.
+Open to international opportunities as a Senior AI Engineer, AI Product Engineer or hands-on Tech Lead.
 
 - LinkedIn: [linkedin.com/in/yassineelouni](https://www.linkedin.com/in/yassineelouni)
 - Email: [yassine.elouni.dev@gmail.com](mailto:yassine.elouni.dev@gmail.com)
-- GitHub: [github.com/sinouw](https://github.com/sinouw)
 - Portfolio: [yassine-elouni-profile.web.app](https://yassine-elouni-profile.web.app/)
