@@ -10,7 +10,7 @@ Senior software engineer with **6+ years** shipping production systems for clien
 
 ## Featured projects
 
-Most of my production work is for clients in private repositories. These three public projects show how I build AI systems: each one ships with tests, an eval suite and results from real runs.
+Most of my production work is for clients in private repositories. These public projects show how I build AI systems: each one ships with tests, an eval suite and results from real runs.
 
 ### 1. [rag-agent-evals](https://github.com/sinouw/rag-agent-evals) — RAG agent with an evaluation harness
 
@@ -42,6 +42,27 @@ Phone-style clinic receptionist that understands and answers in Arabic (Modern S
 - Pluggable STT, LLM and TTS providers; hosted and local Whisper models compared
 
 **Stack:** Python · FastAPI WebSockets · asyncio · Whisper (Groq, faster-whisper) · llama.cpp · edge-tts · Next.js · Docker
+
+### 4. [doc-ai-pipeline](https://github.com/sinouw/doc-ai-pipeline) — scanned invoices to validated JSON
+
+Scanned invoice PDFs in French, English and Arabic go in; validated JSON comes out, with a confidence score on every field and a review queue for the fields a person should check. Page clean-up (denoise, deskew), OCR, five extraction methods compared head to head, and validation of totals, dates and VAT ids.
+
+- **99.1% field accuracy** and **88.9% of invoices fully correct** with the hybrid image + OCR-text method on Groq, against 82.4% for OCR + rules (18 test invoices, 216 fields)
+- **97.2% on Arabic fields**, where OCR + rules manages about 51%
+- At a 0.8 threshold, **13% of fields go to review** and every wrong field is caught there
+- CPU-only on a 2019 laptop; 71 tests
+
+**Stack:** Python · RapidOCR · Groq vision LLM · Pydantic · FastAPI · Docker
+
+### 5. [llm-regress](https://github.com/sinouw/llm-regress) — regression testing for LLM apps in CI
+
+A CLI and GitHub Action that replays a prompt suite on every pull request, scores it with deterministic checks, embedding similarity and an LLM judge, compares against a stored baseline with a paired sign test, and gates on quality, cost and latency.
+
+- Caught a "trim the prompt to save tokens" change that cut tokens by **46%** but dropped the pass rate from **75.0% to 20.8%** (p = 0.00077), which a cost-only check would have approved
+- Separates scorer outages from real failures, so a judge quota running out reads as "inconclusive", not as a regression
+- 72 tests, strict typing
+
+**Stack:** Python · Groq · fastembed · GitHub Actions
 
 ---
 
