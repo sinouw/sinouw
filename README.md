@@ -64,6 +64,16 @@ A CLI and GitHub Action that replays a prompt suite on every pull request, score
 
 **Stack:** Python · Groq · fastembed · GitHub Actions
 
+### 6. [agent-frameworks-bench](https://github.com/sinouw/agent-frameworks-bench) — plain SDK vs LangGraph vs LlamaIndex
+
+One document-QA agent built three ways, with the same corpus, embeddings, tools, prompt and LLM, so only the orchestration and retrieval integration change. A 48-question retrieval eval and a 14-question end-to-end eval graded by a judge from a different model family.
+
+- Found three retrieval defaults the frameworks change without warning, then measured them: langchain-qdrant drops BM25's IDF modifier, cutting answer-chunk MRR from **0.72 to 0.68**
+- End to end: LlamaIndex **14/14** correct, the baseline **13/14**, LangGraph **11/14**, with LangGraph's misses traced to its prebuilt agent failing at the step limit
+- Framework overhead was **95–192 ms** next to 1.2–1.6 s end-to-end medians; 51 tests
+
+**Stack:** Python · LangChain · LangGraph · LlamaIndex · Qdrant · fastembed · Groq
+
 ---
 
 ## Tech stack
