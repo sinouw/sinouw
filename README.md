@@ -58,7 +58,7 @@ Scanned invoice PDFs in French, English and Arabic go in; validated JSON comes o
 
 A CLI and GitHub Action that replays a prompt suite on every pull request, scores it with deterministic checks, embedding similarity and an LLM judge, compares against a stored baseline with a paired sign test, and gates on quality, cost and latency.
 
-- Caught a "trim the prompt to save tokens" change that cut tokens by **46%** but dropped the pass rate from **75.0% to 20.8%** (p = 0.00077), which a cost-only check would have approved
+- Caught a "trim the prompt to save tokens" change that cut tokens by **46%** but dropped the pass rate from **75.0% to 12.5%** (p = 0.00014), which a cost-only check would have approved
 - Separates scorer outages from real failures, so a judge quota running out reads as "inconclusive", not as a regression
 - 72 tests, strict typing
 
