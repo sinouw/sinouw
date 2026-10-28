@@ -59,7 +59,7 @@ Phone-style clinic receptionist that understands and answers in Arabic (Modern S
 
 ## Experience
 
-- **Independent Software & AI Engineering Consultant** (2023 – present): ZUPdeCO, Tested4you, SAHAB, Carrefour Links via Devoteam, PwC UK via Play Studios
+- **Senior Software Engineer Consultant, Move Up It Solutions** (2023 – present), my own B2B consultancy: ZUPdeCO, Tested4you, SAHAB, Carrefour Links via Devoteam, PwC UK via Play Studios
 - **Team Lead, Groupe HLi** (2025)
 - **Technical Lead, Naxxum Group** (2022): led a 6-engineer team on a client platform serving 60k active users
 - **Full-Stack Software Engineer, Naxxum Group** (2020 – 2022)
